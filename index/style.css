@@ -11,16 +11,22 @@ body{
   float: right;
 }
 .up{
-  padding-left: 320px;
+  padding-left: 370px;
   padding-top: 80px;
   image-resolution: 1px 1px;
   float: left;
 }
 .down{
-  padding-left: 30px;
-  padding-top: 90px;
+  padding-left: 60px;
+  padding-top: 3px;
   image-resolution: 10px 10px;
   float:left;
+}
+.hosp{
+  padding-left: 30px;
+  padding-top: 6px;
+  image-resolution: 10px 10px;
+  float: left;
 }
 .center{
   text-align: center;
