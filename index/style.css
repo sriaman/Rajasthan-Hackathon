@@ -1,0 +1,27 @@
+body{
+  background-image: url(dasd.png);
+  background-size: 100% 700px;
+}
+.left{
+  margin-right: 850px;
+  float: left;
+}
+.right{
+  padding-left: 400px;
+  float: right;
+}
+.up{
+  padding-left: 320px;
+  padding-top: 80px;
+  image-resolution: 1px 1px;
+  float: left;
+}
+.down{
+  padding-left: 30px;
+  padding-top: 90px;
+  image-resolution: 10px 10px;
+  float:left;
+}
+.center{
+  text-align: center;
+}
