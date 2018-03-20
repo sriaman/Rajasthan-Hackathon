@@ -73,7 +73,10 @@
             <input type="text" name="school" value="">
           </div>
           <div class="button">
-            <button type="button" name="button" onclick="window.location.href='govtstudent.html'">Proceed</button>
+       <form name="myForm" action="/action_page.php"
+onsubmit="return validateForm()" method="post">
+<input type="submit" value="Submit">
+</form>
           </div>
         </form>
       </div>
