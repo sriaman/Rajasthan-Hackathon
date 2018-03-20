@@ -16,14 +16,14 @@
       <div class="box">
         <h1>Government hospital Payment</h1>
         <h3><u>Patient Details</u></h3>
-        <form class="form" action="index.html" method="post">
+        <form class="form" action="/action_page.php" method="post">
           <div class="sr">
             <label for="sr">Patient ReceiptNo.:</label>
-            <input type="text" name="sr" value="" >
+            <input type="text" name="sr" value="" required>
           </div>
           <div class="name">
             <label for="name">Name:</label>
-            <input type="name" name="name" value="" >
+            <input type="name" name="name" value="" required>
           </div>
           <div class="sex">
             <label for="sex">Sex:</label>
@@ -32,11 +32,11 @@
           </div>
           <div class="mother">
             <label for="father">Father's/Husband Name:</label>
-            <input type="text" name="Father's/Husband" value="">
+            <input type="text" name="Father's/Husband" value="" required>
           </div>
           <div class="class">
             <label for="class">Year:</label>
-            <input type="text" name="class" value="" >
+            <input type="text" name="class" value="" required>
           </div>
           <div class="dob">
             <label for="dob">Date of Birth:</label>
@@ -118,7 +118,7 @@
           </div>
           <div class="contact">
             <label for="contact">Contact No.:</label>
-            <input type="number" name="contact" value="" maxlength="10">
+            <input type="number" name="contact" value="" maxlength="10" required>
           </div>
           <div class="email">
             <label for="email">Email:</label>
@@ -126,7 +126,7 @@
           </div>
           <div class="amount">
             <label for="amount">Amount:</label>
-            <input type="number" name="amount" value="">
+            <input type="number" name="amount" value="" required>
           </div>
           <div class="button">
             <button type="button" name="button" onclick="window.location.href='govtstudent.html'http://uat.rpp.rajasthan.gov.in/payments/v1/init'">Proceed to Pay</button>
@@ -135,7 +135,7 @@
       </div>
     </section>
     <footer>
-      <img src="img\log1o.png" alt="">
+      <img src="/index/School/img\log1o.png" alt="">
     </footer>
   </body>
 </html>
