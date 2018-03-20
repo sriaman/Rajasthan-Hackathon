@@ -17,10 +17,10 @@
       <div class="box">
         <h1>Government School</h1>
         <h3><u>School Details</u></h3>
-        <form class="form" action="index.html" method="post">
+        <form class="form" name="myForm" onsubmit="return validateForm()" action="index.html" method="post">
           <div class="state">
             <label for="state">State:</label>
-            <input type="text" name="state" value="Rajasthan" readonly>
+            <input type="text" name="fname" value="Rajasthan" readonly>
           </div>
           <div class="city">
             <label for="city">City:</label>
@@ -63,18 +63,19 @@
           </div>
           <div class="area">
             <label for="area">Area:</label>
-            <input type="text" name="area" value="">
+            <input type="text" name="fname" value="">
           </div>
           <div class="pin">
             <label for="pin">PIN Code:</label>
-            <input type="number" name="pin" value="" maxlength="6">
+            <input type="number" name="fname" value="" maxlength="6">
           </div>
           <div class="school">
             <label for="school">School Name:</label>
-            <input type="text" name="school" value="">
+            <input type="text" name="fname" value="">
           </div>
           <div class="button">
-            <button type="button" name="button" onclick="window.location.href='govtstudent.html'">Proceed</button>
+            <input type="submit" value="Submit" onclick="window.location.href='govtstudent.html'">
+            <!--button type="button" name="button" onclick="window.location.href='govtstudent.html'">Proceed</button-->
           </div>
         </form>
       </div>
