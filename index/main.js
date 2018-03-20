@@ -1,5 +1,5 @@
 function validateForm() {
-    var x = document.forms["myForm"]["fname"].value;
+    var x = document.forms["myForm"].value;
     if (x == "") 
     {
         alert("please fill out the details");
